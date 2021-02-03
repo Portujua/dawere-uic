@@ -1,0 +1,32 @@
+.btn-secondary {
+  color: $light !important;
+}
+
+.btn-rounded {
+  border-radius: 100px !important;
+}
+
+.btn-borderless {
+  border: none !important;
+  background-color: transparent !important;
+
+  &:hover,
+  &.hover {
+    background-color: transparent !important;
+  }
+
+  &:focus,
+  &.focus {
+    box-shadow: none !important;
+  }
+
+  &[class*="-primary"]:hover { color: $primaryHover !important; }
+  &[class*="-secondary"]:hover { color: $secondaryHover !important; }
+  &[class*="-danger"]:hover { color: $dangerHover !important; }
+  &[class*="-success"]:hover { color: $successHover !important; }
+  &[class*="-warning"]:hover { color: $warningHover !important; }
+  &[class*="-light"]:hover { color: $lightHover !important; }
+  &[class*="-dark"]:hover { color: $darkHover !important; }
+  &[class*="-universal"]-black:hover { color: $universalBlack !important; }
+  &[class*="-universal"]-white:hover { color: $universalWhite !important; }
+}

@@ -1,0 +1,100 @@
+$primary: #2E7977;
+$primaryHover: #135C60;
+$primaryDisabled: #369291;
+
+$secondary: #FBA94B;
+$secondaryHover: #F7931D;
+$secondaryDisabled: #FFC684;
+
+$success: #28a745;
+$successHover: #218838;
+$successDisabled: #74c686;
+
+$danger: #dc3545;
+$dangerHover: #c82333;
+$dangerDisabled: #e97b86;
+
+$warning: #ffc107;
+$warningHover: #e0a800;
+$warningDisabled: #f7931d;
+
+$light: #f8f9fa;
+$lightHover: #e2e6ea;
+$lightDisabled: #fafcfc;
+
+$dark: #343a40;
+$darkHover: #23272b;
+$darkDisabled: #7a7e83;
+
+$universalBlack: #000;
+$universalWhite: #fff;
+
+.color-scheme[class*="-primary"] {
+  &.hover {
+    background-color: $primaryHover !important;
+  }
+
+  &.disabled {
+    background-color: $primaryDisabled !important;
+  }
+}
+
+.color-scheme[class*="-secondary"] {
+  &.hover {
+    background-color: $secondaryHover !important;
+  }
+
+  &.disabled {
+    background-color: $secondaryDisabled !important;
+  }
+}
+
+.color-scheme[class*="-success"] {
+  &.hover {
+    background-color: $successHover !important;
+  }
+
+  &.disabled {
+    background-color: $successDisabled !important;
+  }
+}
+
+.color-scheme[class*="-warning"] {
+  &.hover {
+    background-color: $warningHover !important;
+  }
+
+  &.disabled {
+    background-color: $warningDisabled !important;
+  }
+}
+
+.color-scheme[class*="-danger"] {
+  &.hover {
+    background-color: $dangerHover !important;
+  }
+
+  &.disabled {
+    background-color: $dangerDisabled !important;
+  }
+}
+
+.color-scheme[class*="-light"] {
+  &.hover {
+    background-color: $lightHover !important;
+  }
+
+  &.disabled {
+    background-color: $lightDisabled !important;
+  }
+}
+
+.color-scheme[class*="-dark"] {
+  &.hover {
+    background-color: $darkHover !important;
+  }
+
+  &.disabled {
+    background-color: $darkDisabled !important;
+  }
+}
